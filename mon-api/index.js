@@ -10,7 +10,7 @@ function cors(req,res,next){
 const app=express()
 app.use(cors)
 app.use(express.json())
-appapp.get("/test/:id", (req, res) => {
+app.get("/test/:id", (req, res) => {
    fetch("https://jsonplaceholder.typicode.com/posts/1")
    .then(res  => res.json())
    .then(data => response.json(data))
