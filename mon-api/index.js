@@ -2,9 +2,9 @@ import express from "express"
 
 
 function cors(req,res,next){
-   res.set('access-Control-Allow-Origin','*')
-   res.set('access-Control-Allow-Methods','*')
-   res.set('acess-Control-Allow-Headers','Content-Type, x-api-key')
+   res.set('Access-Control-Allow-Origin','*')
+   res.set('Access-Control-Allow-Methods','*')
+   res.set('Acess-Control-Allow-Headers','Content-Type, x-api-key')
    next()
 }
 const app=express()
