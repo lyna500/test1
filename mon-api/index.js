@@ -3,7 +3,7 @@ import express from "express"
 
 function cors(req,res,next){
    res.set('Access-Control-Allow-Origin','*')
-   res.set('Access-Control-Allow-Methods','*')
+   res.set('Access-Control-Allow-Methodes','*')
    res.set('Acess-Control-Allow-Headers','Content-Type, x-api-key')
    next()
 }
